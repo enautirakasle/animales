@@ -8,11 +8,11 @@ public class PezOscar {
 	private String estado;
 	
 	public void presentarme() {
-		this.especie = "Pez Óscar";
-		this.tamaño = 33;
-		this.peso = 1.6;
-		this.estado = "Moribundo";
-		this.edad = 15;
+//		this.especie = "Pez Óscar";
+//		this.tamaño = 33;
+//		this.peso = 1.6;
+//		this.estado = "Moribundo";
+//		this.edad = 15;
 		
 		System.out.println("Hola, soy un " + this.especie + ", mido " + this.tamaño + " CMs, peso " + this.peso + " KGs, tengo " + this.edad + " años y estoy " + this.estado);
 	}
