@@ -75,5 +75,8 @@ public class AnguilaElectrica {
 		this.especie = "Pez";
 		this.color = "Azul";
 		
+		System.out.println("Hola soy una Anguila Electrica y soy un "+this.tipo+" de la especie "+this.especie+". Tengo "+this.edad+" años y soy de color "+this.color+
+				". Tengo un voltaje de "+this.voltaje+". Peso "+this.peso+" y estoy "+this.estado+". Vivo en el "+this.habitat);
+		
 	}
 }
