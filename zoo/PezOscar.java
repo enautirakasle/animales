@@ -17,6 +17,7 @@ public class PezOscar {
 		System.out.println("Hola, soy un " + this.especie + ", mido " + this.tamaño + " CMs, peso " + this.peso + " KGs, tengo " + this.edad + " años y estoy " + this.estado);
 	}
 	
+	
 	public int getEdad() {
 		return edad;
 	}
