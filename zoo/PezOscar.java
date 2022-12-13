@@ -13,6 +13,8 @@ public class PezOscar {
 		this.peso = 1.6;
 		this.estado = "Moribundo";
 		this.edad = 15;
+		
+		System.out.println("Hola, soy un " + this.especie + ", mido " + this.tamaño + "cms, peso " + this.peso + "KG, tengo " + this.edad + " años y estoy " + this.estado);
 	}
 	
 	public int getEdad() {
