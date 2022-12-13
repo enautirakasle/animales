@@ -54,4 +54,8 @@ public class Foca {
 	public void setEdad(double edad) {
 		this.edad = edad;
 	}
+
+	public void presentarme() {
+		System.out.println("Soy una foca gordita");
+	}
 }
