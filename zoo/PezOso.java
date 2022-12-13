@@ -36,6 +36,6 @@ public class PezOso {
 		this.alimentacion = alimentacion;
 	}
 	public void presentarme() {
-		System.out.println("Hola me llamo "+ this.nombre+" y estoy "+ this.estado);
+		System.out.println("Hola, me llamo "+ this.nombre+" y estoy "+ this.estado);
 	}
 }
