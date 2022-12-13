@@ -33,7 +33,7 @@ public class Pinguino {
 	
 	public void presentarse() {
 		System.out.println("Hola soy un pinguino, me llamo " + this.nombre + " y tengo " + this.edad + " años, "
-				+ "soy de color " + this.color + " y vengo desde " + this.lugarProcedencia + ".");
+				+ "soy de color " + this.color + " y vengo desde " + this.lugarProcedencia);
 	}
 	
 }
