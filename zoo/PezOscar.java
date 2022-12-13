@@ -4,8 +4,8 @@ public class PezOscar {
 	private String especie = "Pez Óscar";
 	private int tamaño;
 	private double peso;
-	private String estado;
 	private int edad;
+	private String estado;
 	
 	public void presentarme() {
 		this.especie = "Pez Óscar";
@@ -14,7 +14,7 @@ public class PezOscar {
 		this.estado = "Moribundo";
 		this.edad = 15;
 		
-		System.out.println("Hola, soy un " + this.especie + ", mido " + this.tamaño + "cms, peso " + this.peso + "KG, tengo " + this.edad + " años y estoy " + this.estado);
+		System.out.println("Hola, soy un " + this.especie + ", mido " + this.tamaño + " CMs, peso " + this.peso + " KGs, tengo " + this.edad + " años y estoy " + this.estado);
 	}
 	
 	public int getEdad() {
