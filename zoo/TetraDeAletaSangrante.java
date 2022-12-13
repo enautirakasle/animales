@@ -8,7 +8,9 @@ public class TetraDeAletaSangrante {
 	
 	
 	
-	
+	public void presentarme() {
+		System.out.println("Hola me llamo Oliver Atom y soy un Tetra de aleta sangrante");
+	}
 	
 	
 	public String getNombre() {
