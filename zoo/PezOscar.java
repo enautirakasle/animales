@@ -1,7 +1,7 @@
 
 public class PezOscar {
 
-	private String especie;
+	private String especie = "Pez Óscar";
 	private int tamaño;
 	private double peso;
 	private String estado;
