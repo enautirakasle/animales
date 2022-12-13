@@ -45,7 +45,7 @@ public class Pulpo {
 		this.edad = edad;
 	}
 	public String presentarme() {
-		return "Hola, me llamo "+nombre + ", soy un pulpo o " + nombreCientifico + ", soy de color " + color + " y vivo en aguas " + agua + ". Tengo  " + edad +" años" ;
+		return "Hoola, me llamo "+nombre + ", soy un pulpo o " + nombreCientifico + ", soy de color " + color + " y vivo en aguas " + agua + ". Tengo  " + edad +" años" ;
 	}
 	
 	
