@@ -1,4 +1,4 @@
-
+import javax.swing.*;
 public class LeonMarino {
 	private String nombre;
 	private String color;
@@ -40,7 +40,7 @@ public class LeonMarino {
 		this.edad = edad;
 	}
 	
-	public String presentarse(String nombre, String color, double peso, double velocidad, int edad) {
-		return ("Hola soy "+this.nombre+ " soy del color "+this.color+ " mi peso es de "+peso+ " mi velocidad es "+velocidad+" y mi edad es de "+edad);
+	public void presentarse(String nombre, String color, double peso, double velocidad, int edad) {
+		JOptionPane.showMessageDialog(null, "Hola soy "+this.nombre+ " soy del color "+this.color+ " mi peso es de "+peso+ " mi velocidad es "+velocidad+" y mi edad es de "+edad);
 	}
 }
